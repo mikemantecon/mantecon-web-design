@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    display: flex;
     font-size: 1rem;
     color: white;
     background-color: #2A52BE;
@@ -44,12 +43,28 @@ h1 {
     padding: 20px;
 }
 
-.navbar ul {
-    display: flex;
-}
 
 ul {
     list-style-type:none;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cards div {
+    margin: 10px;
+}
+
+.card h2 {
+    font-size: 2.5rem;
+    padding: .5rem;
+}
+
+.card p {
+    font-size: 1.5rem;
+    padding: .5rem;
 }
 
 .cards img {
@@ -58,10 +73,4 @@ ul {
 
 footer {
     text-align: center;
-}
-
-@media screen and (width < 600px) {
-    .navbar {
-        display:none;
-    }
 }
