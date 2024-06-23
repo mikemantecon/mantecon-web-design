@@ -8,14 +8,15 @@ body {
 header {
     display: flex;
     font-size: 1rem;
+    color: white;
     background-color: #2A52BE;
-    height: 8vh;
+    height: 10vh;
 }
 
 .logo p {
     font-family: "Birthstone";
     font-size: 3rem;
-    padding: 10px 5px;
+    padding-left: 15px;
 }
 
 .hero {
@@ -40,7 +41,7 @@ ul {
     list-style-type:none;
 }
 
-img {
+.cards img {
     width: 100px;
 }
 
