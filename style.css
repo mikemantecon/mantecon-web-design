@@ -5,9 +5,15 @@ body {
     font-family: "Cabin", sans-serif;
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
 header {
     display: flex;
     font-size: 1rem;
+    background-color: #2A52BE;
 }
 
 .logo p {
