@@ -10,7 +10,6 @@ header {
     font-size: 1rem;
     background-color: #2A52BE;
     height: 8vh;
-    margin: auto -15px;
 }
 
 .logo p {
@@ -21,6 +20,8 @@ header {
 
 .hero {
     margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 h1 {
@@ -28,6 +29,7 @@ h1 {
     background-color: #E97451;
     color: white;
     padding: 20px;
+    grid-column: span 2;
 }
 
 .navbar ul {
