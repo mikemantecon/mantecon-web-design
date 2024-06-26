@@ -85,10 +85,26 @@ ul {
 
 .experience li {
     margin: 20px auto;
-    font-family: "Birthstone";
+    font-size: 2rem;
+}
+
+.cta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10vh;
+}
+
+.cta-heading {
     font-size: 3rem;
+}
+
+button {
+    width: 14rem;
+    height: 4rem;
+    margin: auto;
 }
 
 footer {
     text-align: center;
+    font-size: 1.5rem;
 }
