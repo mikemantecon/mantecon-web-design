@@ -108,3 +108,36 @@ footer {
     text-align: center;
     font-size: 1.5rem;
 }
+
+@media screen and (width <= 425px) {
+
+    .container {
+        margin: auto;
+        padding: 0;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 3rem;
+        grid-column: span 1;
+        width: 100vw;
+        padding: 20px 0;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+        padding: 20px 0;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .cta {
+        grid-template-columns: 1fr;
+    }
+
+}
