@@ -71,6 +71,24 @@ ul {
     width: 100%;
 }
 
+.experience {
+    margin: 10vh auto;
+}
+
+.experience h2 {
+    font-size: 3.5rem;
+    background-color: #E97451;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.experience li {
+    margin: 20px auto;
+    font-family: "Birthstone";
+    font-size: 3rem;
+}
+
 footer {
     text-align: center;
 }
